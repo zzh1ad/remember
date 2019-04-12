@@ -198,3 +198,89 @@ title是当鼠标移上去的时候显示的文字
       + 三级列表
 
 ---
+
+## 八、表格
+
+语法：
+
+```markdown
+表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+
+第二行分割表头和内容
+文字默认居左
+两边加:表示居中
+右边加:表示居右
+```
+
+效果如下:
+
+表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+内容居左|内容居中|内容居右
+
+---
+
+## 九、代码
+
++ **单行代码**
+
+语法：
+
+使用反引号将代码包起来
+
+```markdown
+`代码内容`
+```
+
+示例：`代码内容`
+
++ **代码块**
+
+语法：
+
+使用三个反引号把代码包起来，两边的反引号单独占一行。第一个反引号后面可以加代码类型。
+
+```markdown
+(```markdown)
+代码
+(```)
+```
+
+示例：
+
+```markdown
+代码
+```
+
+---
+
+## 十、流程图
+
+语法：
+
+```markdown
+(```flow)
+st=>start: 开始
+op=>operation: My operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+(&```)
+```
+
+效果如下：
+
+```flow
+st=>start: 开始
+op=>operation: My operation
+cond=>condition: Yes or No?
+e=>end: 结束
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
