@@ -5,6 +5,8 @@
 ### AT模式
 
 可以保证强一致
+![](./image/seata流程1.png)
+![](./image/seata流程2.png)
 
 ### 注意事项
 
