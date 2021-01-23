@@ -41,3 +41,5 @@ class Duck extend AbstractDuck {
 **不要依赖于发布者通知的顺序**
 
 ![](./image/观察者模式类图.png)
+
+## 装饰者模式
