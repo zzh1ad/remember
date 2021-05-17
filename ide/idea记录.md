@@ -1,4 +1,11 @@
-## 快捷键
+# idea 记录
+
+## 目录
+
+- 1.[快捷键](#1-快捷键)
+- 2.[插件](#2-插件)
+
+### 1. 快捷键
 
 **ctrl+w** 选中当前焦点 连续按会选择更大范围的 **ctrl+shift+w** 反选
 
@@ -15,3 +22,17 @@ new Date // ctrl+alt+w
 
 Date date = new Date();
 ```
+
+### 2. 插件
+
+#### 2.1 Easy code
+
+代码生成器， 可以根据编写的模板文件生成想要的代码
+
+官网: [https://gitee.com/makejava/EasyCode](https://gitee.com/makejava/EasyCode)
+
+#### 2.2 Translation
+
+翻译工具，划线右键翻译文字
+
+官网: [https://github.com/YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin)

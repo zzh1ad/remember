@@ -1,4 +1,11 @@
-## 快捷键
+# vscode 记录
+
+## 目录
+
+- 1.[快捷键](#1-快捷键)
+- 2.[插件](#2-插件)
+
+## 1. 快捷键
 
 新建文件(手动修改) **A** 配置when **explorerViewletVisible && !inputFocus && !renameInputVisible**
 
@@ -8,7 +15,7 @@
 
 侧边栏缩进 **Ctrl+B**
 
-## 插件
+## 2. 插件
 
 ### Paste  Image
 
