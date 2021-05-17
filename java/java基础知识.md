@@ -1,6 +1,16 @@
 # java基础知识
 
-## 基本数据类型
+## 目录
+
+1. [语法](#语法)
+    1.1 [基本数据类型](#11-基本数据类型)
+    1.2 [控制流程](#1.2控制流程)
+2. [特性](#2-特性)
+    2.1 [继承](#21-继承)
+
+## 1 语法
+
+### 1.1 基本数据类型
 
 java中包括八种基本数据类型：
 
@@ -12,11 +22,11 @@ java中包括八种基本数据类型：
 
 在 Thinking in Java 第4版 中 **void** 也被认为是一种基本数据类型原因可能是 void 有包装类 **Void**
 
-## 控制流程
+### 1.2 控制流程
 
 控制流程的关键字包括 **if-else、while、do-while、for、return、break、continue、switch** java不支持 **goto** 关键字，但是 **goto** 关键字是保留字。
 
-### if-else
+**if-else**
 
 可以用来判断，**else** 为可选。
 ```java
@@ -26,7 +36,7 @@ if(a > 0){
   a--;
 }
 ```
-### while
+**while**
 
 **while** 用来控制循环。
 
@@ -35,9 +45,9 @@ while(a > 0){
   a--;
 }
 ```
-### do-while
+**do-while**
 
-**do-while** 用来控制循环，与 **while** 的区别在于 **do-while** 是先计算在判断。
+**do-while** 用来控制循环，与 **while** 的区别在于 **do-while** 是先计算再判断。
 
 ```java
 do{
@@ -45,11 +55,29 @@ do{
 }while(a > 0);
 ```
 
-### for
+**for**
 
-## 继承
+**for** 用来控制循环，for(初始操作,判断条件,循环操作){执行体}
 
-### 调用子类构造方法时调用过程
+```flow
+st=>start: 开始
+r1=>operation: 初始操作
+r2=>condition: 判断条件
+r3=>operation: 循环操作
+r4=>operation: 执行体
+ed=>end: 结束
+st->r1->r2
+r3->r2
+r4->r3
+r2(yes)->r4
+r2(no)->ed
+```
+
+## 2 特性
+
+### 2.1 继承
+
+#### 调用子类构造方法时调用过程
 
 父类：
 ```java
@@ -106,3 +134,11 @@ hello  Son
 
 第一次调用构造方法时会先加载 static 域内的代码从父类到子类进行加载。
 然后从父类到子类依次加载非 static 域的代码和构造方法。第二次调用构造方法时不会加载 static 域的代码。
+
+```flow
+r1=>operation: 父类static
+r2=>operation: 父类构造方法
+r3=>operation: 子类static
+r4=>operation: 子类构造方法
+r1->r2->r3->r4
+```
