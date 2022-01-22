@@ -1,3 +1,7 @@
+---
+date created: 2022-01-22 23:32
+---
+
 # idea 记录
 
 ## 目录
@@ -29,10 +33,10 @@ Date date = new Date();
 
 代码生成器， 可以根据编写的模板文件生成想要的代码
 
-官网: [https://gitee.com/makejava/EasyCode](https://gitee.com/makejava/EasyCode)
+官网: <https://gitee.com/makejava/EasyCode>
 
 #### 2.2 Translation
 
 翻译工具，划线右键翻译文字
 
-官网: [https://github.com/YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin)
+官网: <https://github.com/YiiGuxing/TranslationPlugin>

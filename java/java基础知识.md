@@ -1,12 +1,16 @@
+---
+date created: 2022-01-22 23:32
+---
+
 # java基础知识
 
 ## 目录
 
 - 1.[语法](#1-语法)
-   - 1.1 [基本数据类型](#11-基本数据类型)
-   - 1.2 [控制流程](#12-控制流程)
+  - 1.1 [基本数据类型](#11-基本数据类型)
+  - 1.2 [控制流程](#12-控制流程)
 - 2.[特性](#2-特性)
-   - 2.1 [继承](#21-继承)
+  - 2.1 [继承](#21-继承)
 
 ## 1 语法
 
@@ -29,6 +33,7 @@ java中包括八种基本数据类型：
 **if-else**
 
 可以用来判断，**else** 为可选。
+
 ```java
 if(a > 0){
   a++;
@@ -36,6 +41,7 @@ if(a > 0){
   a--;
 }
 ```
+
 **while**
 
 **while** 用来控制循环。
@@ -45,6 +51,7 @@ while(a > 0){
   a--;
 }
 ```
+
 **do-while**
 
 **do-while** 用来控制循环，与 **while** 的区别在于 **do-while** 是先计算再判断。
@@ -80,6 +87,7 @@ r2(no)->ed
 #### 调用子类构造方法时调用过程
 
 父类：
+
 ```java
 public class Father {
     public Father(){
@@ -93,7 +101,9 @@ public class Father {
     }
 }
 ```
+
 子类：
+
 ```java
 public class Son extends Father {
     public Son(){
@@ -107,7 +117,9 @@ public class Son extends Father {
     }
 }
 ```
+
 调用：
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -117,7 +129,9 @@ public class Main {
     }
 }
 ```
+
 运行结果：
+
 ```
 static Father
 static Son
