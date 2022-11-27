@@ -4,10 +4,9 @@ date created: 2022-01-22 23:32
 
 # idea 记录
 
-## 目录
+```toc
 
-- 1.[快捷键](#1-快捷键)
-- 2.[插件](#2-插件)
+```
 
 ### 1. 快捷键
 
@@ -22,7 +21,7 @@ date created: 2022-01-22 23:32
 **ctrl+alt+v** 自动生成当前表达式的返回值
 
 ```
-new Date // ctrl+alt+w
+new Date // ctrl+alt+v
 
 Date date = new Date();
 ```
